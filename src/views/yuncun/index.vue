@@ -13,7 +13,7 @@ export default {
   methods: {
     async ge() {
       const a = await axios.post(
-        "/api/login/cellphone?phone=15188277469&password=123.ljl123"
+        "/api/login/cellphone?phone=15978513015&password=zuiai.520.."
       );
       console.log(a.data);
     },

@@ -14,7 +14,7 @@ module.exports = {
     proxy: {
       "/api": {
         // target: `http://127.0.0.1:8888`,  // 跨域代理  开发环境
-        target: `http://127.0.0.1:3000`, // 生产环境
+        target: `http://192.168.18.24:3000`, // 生产环境
         // target: `http://127.0.0.1:8888/test/`,  // 开发环境
         changeOrigin: true,
         pathRewrite: {
